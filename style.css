@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 100px 600px;
+}
+
+.container {
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+.output {
+  color: white;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+}
+
+.btn-cal {
+  background-color: #d8d9db;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn-cal:hover {
+  background-color: #ebebeb;
+}
+
+.btn-cal:active {
+  background-color: #bbbcbe;
+}
+
+.half {
+  width: 49.7%;
+}
+
+.third {
+  width: 74.8%;
+}
+
+.btn-cal:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-cal:last-child:hover {
+  background-color: #dfb07e;
+}
+
+.btn-cal:last-child:active {
+  background-color: #dd8d37;
+}
+
+.row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.row:last-child {
+  padding-bottom: 0;
+}
