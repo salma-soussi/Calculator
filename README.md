@@ -7,4 +7,4 @@ Not all the features work (Example : the comma , % ,-/+, ...).
 
 I made this project to learn and experiment more with **HTML**, **CSS**, **JavaScript**.
 
-you can see it at https://salma-soussi.github.io/Calculator/
+You can see it at https://salma-soussi.github.io/Calculator/
